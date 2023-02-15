@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create Account</title>
+  </head>
+  <body>
+  <form action="/my-handling-form-page" method="post">
+ <ul>
+  <li>
+    <label for="name">Nombre:</label>
+    <input type="text" name="nombre" required pattern="[A-Za]+" />
+
+  </li>
+  <li>
+    <label for="email">email:</label>
+    <input type="email" id="mail" name="user_mail" required >
+
+  </li>
+  <li>
+    <label for="msg">clave:</label>
+    <textarea id="msg" name="user_message"></textarea required>
+
+  </li>
+   <li>
+    <label for="msg">confirme su clave:</label>
+    <textarea id="msg" name="user_message"></textarea required>
+
+  </li>
+  <input type="submit" value="Enviar">  </input>
+ </ul>
+</form>
+
+  </body>
+</html>
